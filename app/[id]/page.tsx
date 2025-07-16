@@ -38,7 +38,7 @@ interface  Comment {
             
 }
 
-export default async function Page({ params }: { params: { id: string } }){
+export default async function Page({ params }: PageProps){
    
     const  {id}  = params
       
